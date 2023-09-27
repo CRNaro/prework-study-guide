@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/style.css" />
+  <title>Prework Study Guide</title>
+</head>
+
+<body>
+  <header id="header">
+    <h1>Prework Study Guide</h1>
+    <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+    <h2>Open the Console to see What's Happening</h2>
+  </header>
+  <main>
+    <section class="card" id="html-section">
+      <h2>HTML</h2>
+      <ul>
+        <li>The head element contains information about the webpage.</li>
+        <li>The body element represents the visible content shown to the user.</li>
+      </ul>
+
+    </section>
+
+    <section class="card" id="css-section">
+      <h2>CSS</h2>
+      <ul>
+        <li>A margin indicates how much space we want around the outside of an element</li>
+        <li>A padding indicates how much space we want around the content inside an element </li>
+        <li>A period (.) before a word designates that word as a class selector - example (.card in this current code)
+        </li>
+        <li>Must use (rel) and (href) to connect the HTML to CSS</li>
+      </ul>
+    </section>
+    <section class="card" id="git-section">
+      <h2>Git</h2>
+      <ul>
+        <li>git status: checks what branch we are currently on</li>
+        <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+        <li>git add -A: "stages" or is a record of what was changed *must do this after any chages so it records to git*
+        </li>
+        <li>git commit -m: Note or "message" to let users know what you changed</li>
+        <li>git pull origin main: This ensures that we have the latest commits</li>
+        <li>git push origin feature/starter-code: Will push code to my branch *DO NOT push to main branch!!*</li>
+        <li>git init: Intializes a new Git repo and begins tracking an existing directory. It adds a hidden subfolder
+          within the existing directory that houses the internal data structure required for version control</li>
+        <li>git clone: Creates a local copy of a project that already exists remotely. The clone includes all the
+          project's files, history and branches</li>
+        <li>git branch: Showes branches being worked on</li>
+        <li>git help "command": Will open up a detailed help page about the chosen command</li>
+      </ul>
+    </section>
+    <section class="card" id="javascript-section">
+      <h2>JavaScript</h2>
+      <ul>
+        <li>Arrays: are a single variable that is used to hold a group of data. Typicly used to hold data that is
+          related in some way</li>
+        <li>Index: is the location of the data item in the array. It uses a unique idetifying number</li>
+        <li>Loops: are used when an array has many items. Instead of writing all the console.logs out we use a Loops
+        </li>
+        <li>FOR loop: uses the preictable pattern indices to prefor a task on all the items in an array by using a
+          single code block to be exicuted over and over</li>
+        <li>Starting point for a loop: we use variable 'x' and it gets a '0' "because the first index of an array is
+          always 0, not 1. ex: var x=0</li>
+        <li>Second statement condition: as long as the number in the varible 'x' is less than the length of the array
+          the loop keeps running.
+          Use 'length' built in to the array to express the condition ex: x < 'shapes' .lenght </li>
+        <li>Final: allows the array to iterate over each item. Idices follow predictive pattern, the number increases by
+          1 each time.
+          Code x++ is short writing for x+1. Now everytime the code loops x will increase by 1 ex: (var x=0
+          <'shapes'.length;x++){ console.log(shapes[x])}</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>I can code!</p>
+  </footer>
+  <script src="./assets/script.js"></script>
+</body>
+
+</html>
